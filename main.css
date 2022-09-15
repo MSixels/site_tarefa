@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #262c31;
+}
+
+header h1,
+section h2,
+section h3 {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: normal;
+    text-align: justify;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #f3f4f721;
+    color: #e2dedb;
+
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#e2dedb
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    color: #e2dedb;
+}
+
+section {
+    padding: 32px 0;
+}
+
+#start img {
+    height: 428px;   
+    padding: 32px;
+}
+
+#start div {
+    margin-left: 32px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#about h2{
+    margin-bottom: 18px;
+    position: relative;
+    bottom: 120px;
+    left: 140px;
+}
+#about p {
+    height: 120px;
+    position: relative;
+    left: 20px;
+    bottom: 38px
+}
+
+#about button {
+    position: relative;
+    top: 128px;
+    right: 288px;
+    color: #e2dedb;
+    height: 48px;
+    
+}    
+
+
+#about a {
+    text-decoration: none;
+    color: #262c31;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#about img {
+    height: 428px;
+    padding: 32px;
+}
+
+#contact .container{
+    display: inline;
+}
+
+#contact h2 {
+    margin-bottom: 18px;
+    position: relative;
+    left: 170px;
+}
+
+.mensage {
+    display: inline-flex;
+    align-items: flex-start;
+    position: relative;
+    left: 170px;
+}
+
+.mensage h3 {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+
+.my-links img {
+    height: 68px;
+    position: relative;
+    left: 180px;
+}
+
+
+.my-links li {
+    display: inline-flex;
+    margin: 16px;
+}
+
+
+form input,
+form textarea,
+form button  {
+    display: block;
+    width: 280px;
+    margin-bottom: 8px;
+    padding: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+form button {
+    background-color: #e2dedb;
+    color: #262c31;
+    border: none;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+}
+
+form textarea {
+    resize: none;
+    height: 160px;
+}
+
+footer {
+    background-color: #f3f4f721;
+    color: #e2dedb;
+    padding: 16px 0;
+}
